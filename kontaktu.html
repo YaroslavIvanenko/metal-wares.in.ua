@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>Кованые беседки</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+	</script>
+	<link rel="stylesheet" href="style.css" type="text/css">
+	 <link rel="stylesheet" href="page.css" type="text/css">
+	  <link rel="stylesheet" href="vorota.css" type="text/css">
+	<meta name="description" content="Компания auto занимается пригоном авто с европы">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="imgicon/ico.ico" rel="shortcut icon" type="image/x-icon">
+	<link rel="stylesheet" href="font/css/fontawesome-all.min.css">
+</head>
+<script type=text/javascript>
+
+	
+	$(document).scroll (function() {
+		if ($(document).width() > 785 ) {
+	     if ($(document).scrollTop() > $('header').height()+10)	
+		$('nav').addClass('fixed');
+		else
+		$('nav').removeClass('fixed');	
+			}
+	});
+	
+	window.onresize = function (event) {
+	    $('#mobileMenu').hide();	
+	};
+	
+	$(document).ready(function(){
+         $(".img").bind("click", function(event){
+             $(event.target).parent().css("text-align", "center");
+             $(event.target).animate({
+               width: $(event.target).width() * 3,
+                width: $(event.target).height() * 2,  
+             },2000);
+         });  
+       });
+	
+</script>
+<body>
+    <div id="wrapper">
+        <div id="content">
+ <header>
+  	  <div id="logo">
+  	  	<a href="images/logo11.png" title="На главную">
+  	  		<img src="images/logo11.png" title="auto.in.ua" alt="auto.in.ua">
+  	  		<span>Metal Wares</span>
+  	  	</a>
+  	  </div>
+  	  <div id="about">
+  	
+              <a href="#">   <img src="images/Life_Ukraine_logo.svg.png" width="30px" >093-314-14-20</a> 
+		  <a href="#"> <img src="images/Kiev.png" width="30px">096-774-15-92</a>
+  
+  	  </div>
+  	    <div id="reg_auth">
+  	  	  <a href="zdelat%20zakaz.html" title="Как заказать">
+  	  	   <div class="btn">
+  	  	   	Как заказать
+  	  	   </div>
+  	  	   </a>
+  	  	   <a href="" title="Обратный звонок">
+  	  	   <div class="btn">
+  	  	    Обратный звонок
+  	  	  </div>
+  	  	 </a>
+		</div>  
+  </header>
+  <nav>
+   <div id="menuShow"><i class="fa fa-bars" aria-hidden="true"></i></div>
+  <div id="hideMenu">
+<a href="index.html">Главная</a>
+  	<a href="uslygi.html">Услуги</a>
+  	<a href="nashi%20robotu.html">Наши работы</a>
+  	<a href="o%20nas.html">О Нас</a>
+  	<a href="kontaktu.html">Контакты</a>
+   </div>	
+  	<div id="search">
+  		<span>Поиск</span>
+  		<i class="fas fa-search"></i>
+  	</div>
+  	<div id="mobileMenu">
+  	<a href="index.html">Главная</a>
+  	<a href="uslygi.html">Услуги</a>
+  	<a href="nashi%20robotu.html">Наши работы</a>
+  	<a href="o%20nas.html">О Нас</a>
+  	<a href="kontaktu.html">Контакты</a>
+  	
+	  </div>
+	</nav>
+	<div id="foto">
+            <div id="articles">
+            <h1 class="heading">Контакты </h1> <br/><br/>
+             <div class="tekx">
+<p>Контакты<br/>
+г. Фастов, ул. Зигмунда Козара, 11 ТЦ "Альбет"<br/>
+г Вишневое ул.Железнодорожный 92<br/>
+Режим работы: 
+Пн.-Сб. - 08:30 до 16:30
+Вс. - 08:30 до 13:00<br/>
+Телефон: <br/> 
+093 314 14 20<br/>
+096 774 15 92
+<br/>
+E-mail: metal- wares@ukr.net<br/><br/><br/></p>
+                                                                                     
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.4422654575505!2d29.908553015717953!3d50.078005979425726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d3551ea485549d%3A0x82c8160d3f4278d1!2z0LLRg9C70LjRhtGPINCX0LjQs9C80YPQvdC00LAg0JrQvtC30LDRgNCwLCAxMSwg0KTQsNGB0YLRltCyLCDQmtC40ZfQstGB0YzQutCwINC-0LHQuy4sIDA4NTAw!5e0!3m2!1sru!2sua!4v1517647190369" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>      
+			</div>
+				
+  <footer>
+  <div id="site_name">
+  	<span>Auto</span> - сообщество автолюбителей!
+  </div>
+  <div id="clear"></div>
+  <div id="footer_menu">
+  	<a href="" title="Узнать детально об рекламе">Реклама</a>
+  	<a href="" title="Поддержать проект">Поддержать проект</a>
+  	<a href="" title="Написать письмо">Обратная связь</a>
+  </div>
+  <div id="rights">
+  	<a href="">Все права захищены &copy: <?=date ('Y')?> </a>
+  </div>
+   <div id="social">
+                  <a href="" title="Група ВК"><i class="fab fa-vk"></i></a>
+                  <a href="" title="Група FaceBook"><i class="fab fa-facebook-square"></i></a>
+                  <a href="" title="Мы в Twitter"><i class="fab fa-twitter-square"></i> </a>
+              </div>
+  </footer>
+	</div>
+		</div>
+	</div>
+	</div>
+</body>
+</html>

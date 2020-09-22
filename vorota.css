@@ -1,0 +1,48 @@
+#foto {
+	width: 90%;
+	float: left;
+	margin-right: 10px;
+	margin-left: 70px;
+	margin-bottom: 20px;
+	border: 2px solid #e3e3e3;
+	background-color: #fff;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+.articlee {
+	float: left;
+	margin-left: 35px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	border: 2px solid #e3e3e3;
+	background-color: #fff;
+	box-sizing: border-box;
+	max-width: 350px;
+	border-radius: 5px;
+}
+
+.articlee>img {
+	border-radius: 5px 5px 0 0;
+	width: 550px;
+	height: 300px;
+}
+
+.articlee>span {
+	font-family: 'Robota Slab', serif;
+	font-size: 1.2em;
+	width: 80%;
+	margin: 7px 10%;
+	float: left;
+	text-align: center;
+	color:#333;
+}
+
+.tekx {
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+
+.heading{
+	margin-left: 20px;
+}
